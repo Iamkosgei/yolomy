@@ -1,0 +1,91 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+#home
+{
+    background: url("../assets/backgrounds/hero.jpg") center center/cover no-repeat;
+    height: 100vh;
+
+    display: grid;
+    grid-template-rows: 1fr 5fr
+}
+#main-nav
+{
+    width: 100%;
+    position: fixed;
+
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    align-items: center
+}
+
+#main-nav.pink
+{
+    background: #C6BFA5
+}
+
+.menu 
+{
+    justify-self: end;   
+}
+.menu ul
+{
+    display: flex;
+    list-style: none
+}
+.menu ul li
+{
+    margin-left: 2rem
+}
+.menu ul li a
+{
+    padding: 0.75rem
+}
+
+.logo
+{
+    width: 180px;
+    margin-left: 2rem;
+}
+
+a
+{
+    color: white;
+    text-decoration: none
+}
+
+/* showcase */
+#showcase
+{
+    height: 70vh;
+    display: grid;
+    color: white;
+
+    margin-top: 12rem;
+
+    grid-template-rows:repeat(3,1fr) 
+}
+#showcase .heading
+{
+    align-self: flex-end;
+    justify-self: center;
+    font-size: 5rem;
+}
+
+#showcase .slogan
+{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-size: 1.75rem;
+}
+#showcase img
+{
+    align-self: end;
+    justify-self: center;
+}

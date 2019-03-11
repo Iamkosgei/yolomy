@@ -349,3 +349,137 @@ a
           font-size: 2rem;
           padding: 50px
       }
+
+/* promo */
+#promo
+{
+    height: 10vh;
+    background: #535154;
+    color: white;
+
+    display: flex;
+    align-items: center
+}
+
+#promo img{
+    height: 25px;
+    margin: 0 2rem
+}
+
+/* main footer */
+#main-footer
+{
+    
+    background: #414141;
+    padding-bottom: 2rem
+    
+
+}
+
+.main-footer-text
+{
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 20% 25%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10%;
+
+    padding: 4rem;
+}
+
+
+.social-grid
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr );
+
+    grid-gap: 1rem;
+    justify-content: center
+}
+.we-are-social
+{
+    text-align: center
+}
+
+.copy
+{
+    text-align: center;
+    color: white;
+}
+
+
+/* responsiveness */
+@media (max-width: 768px)
+{
+    #main-nav
+    {
+        display: inline;
+
+    }
+    .logo
+    {
+        display: block;
+        margin: 0 auto
+    }
+    .menu
+    {
+        padding-top: 0.5rem;
+    }
+    .menu ul
+    {
+        justify-content: center
+    }
+    #showcase .heading
+    {
+        font-size: 2rem;
+        text-align: center
+    }
+    #showcase .slogan
+    {
+        font-size: 1rem;
+    }
+    #selection  .container
+    {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: repeat(2,1fr);
+
+        align-items: center;
+        justify-content: center
+    }
+    .see-all-div
+    {
+      text-align: center
+    }
+    .about-us-text
+    {
+        max-width: 100%;
+    }
+
+    .about-us-text p
+        {
+            font-size: 1rem;
+            padding: 5px
+        }
+    #promo p 
+    {
+        font-size: 0.75rem;
+    }
+
+    #promo img{
+        height: 20px;
+        margin: 0 1rem
+    }
+
+    .main-footer-text
+    {
+        grid-template-columns:none;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 0;
+
+        padding: 1rem;
+        align-items: center
+    }
+    
+}

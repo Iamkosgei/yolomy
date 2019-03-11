@@ -2,7 +2,6 @@
       $(window).on("scroll", function() {
         if($(window).scrollTop()) {
               $('#main-nav').addClass('pink');
-              console.log("scrolling")
         }
 
         else {

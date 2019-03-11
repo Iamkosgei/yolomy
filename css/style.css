@@ -93,10 +93,11 @@ a
     text-align: center;
     font-size: 1.75rem;
 }
-#showcase img
+#showcase a
 {
     align-self: end;
     justify-self: center;
+    cursor: pointer
 }
 
 /* selection section */

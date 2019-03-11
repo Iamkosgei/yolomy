@@ -124,7 +124,7 @@ $(document).ready(function()
         $('body, html').animate(
             {
                 scrollTop: $(this.hash).offset().top
-            }
-        ),5000
+            },1000
+        )
     })
 })
